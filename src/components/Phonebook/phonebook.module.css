@@ -1,9 +1,22 @@
-.phonebook{
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    font-size: 20px;
-    color: #010101;
+.sectionBook {
+  max-width: 500px;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  padding: 40px;
+  background-color: var(--bgColor);
+  box-shadow: var(--boxShadow);
+}
+
+.title {
+  color: #000000;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.titleContacts {
+  color: #000000;
+  text-align: center;
+  margin-bottom: 15px;
 }
