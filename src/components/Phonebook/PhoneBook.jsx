@@ -1,11 +1,11 @@
 import { useEffect } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
-import ContactList from './ContactList/ContactList';
-import Filter from './Filter/Filter';
-import ContactForm from './ContactForm/ContactForm';
-import styles from './phonebook.module.css';
+import ContactList from '../ContactList/ContactList';
+import Filter from '../Filter/Filter';
+import ContactForm from '../ContactForm/ContactForm';
 import { getFilteredContacts } from 'redux/contacts/contacts-selector';
 import { fetchAllContacts} from 'redux/contacts/contacts-operation';
+import styles from './phonebook.module.scss';
 
 const PhoneBook = () => {
   const filterContacts = useSelector(getFilteredContacts);

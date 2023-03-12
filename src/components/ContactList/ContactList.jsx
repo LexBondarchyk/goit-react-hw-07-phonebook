@@ -4,7 +4,7 @@ import { IconContext } from 'react-icons';
 import { fetchDeleteContact } from 'redux/contacts/contacts-operation';
 import { getFilteredContacts } from 'redux/contacts/contacts-selector';
 
-import styles from './contactList.module.css';
+import styles from './contactList.module.scss';
 
 const ContactList = () => {
   const filterContacts = useSelector(getFilteredContacts);
