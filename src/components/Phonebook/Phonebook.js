@@ -3,7 +3,7 @@ import { useSelector, useDispatch } from 'react-redux';
 import ContactList from './ContactList/ContactList';
 import Filter from './Filter/Filter';
 import ContactForm from './ContactForm/ContactForm';
-import styles from './phoneBook.css';
+import styles from './phonebook.module.css';
 import { getFilteredContacts } from 'redux/contacts/contacts-selector';
 import { fetchAllContacts} from 'redux/contacts/contacts-operation';
 
